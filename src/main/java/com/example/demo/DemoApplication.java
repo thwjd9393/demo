@@ -10,11 +10,6 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
 
         System.out.println("test");
-
-        Person ps = new Person("홍길동", "22");
-
-        ps.createPerson();
-
         System.out.println("test22");
         System.out.println("test33");
     }
